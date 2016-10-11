@@ -88,6 +88,7 @@ class DBHelper extends SQLiteOpenHelper {
         }
 
         taskDB.close();
+        results.close();
         return allTasks;
     }
 
